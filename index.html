@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LokSwar | Our Folk Music Project</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <div class="brand-row">
+      <div class="logo">लोक<span>स्वर</span></div>
+      <div>
+        <h1>LokSwar</h1>
+        <p class="subtitle">Getting to know Maharashtra's folk music</p>
+      </div>
+    </div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#traditions">Folk forms</a>
+      <a href="#artists">Local artists</a>
+      <a href="#interviews">Our fieldwork</a>
+      <a href="#feedback">Feedback</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="intro">
+      <div class="intro-copy">
+        <h2>Keeping our folk music stories alive.</h2>
+        <p>Folk music is more than a performance. It carries stories, memories, traditions and the voices of local communities. We made this small website to introduce a few folk forms of Maharashtra and encourage people to learn from local artists.</p>
+        <a class="button" href="#traditions">Explore folk forms ↓</a>
+      </div>
+      <div class="paper-note">
+        <span class="tape"></span>
+        <p class="note-title">Project idea</p>
+        <p>Listen • Learn • Record • Share</p>
+        <div class="doodle">♫ ♪ ♫</div>
+      </div>
+    </section>
+
+    <section class="project-strip">
+      <div><strong>01</strong><span>Discover traditions</span></div>
+      <div><strong>02</strong><span>Talk to performers</span></div>
+      <div><strong>03</strong><span>Share what we learn</span></div>
+    </section>
+
+    <section id="traditions" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">A FEW EXAMPLES</p>
+        <h2>Folk forms of Maharashtra</h2>
+        <p>These are short introductions. Our next step is to add recordings and information collected with permission from local performers.</p>
+      </div>
+      <div class="cards">
+        <article class="folk-card lavani">
+          <div class="card-symbol">♫</div>
+          <h3>Lavani</h3>
+          <p>A lively performance tradition known for expressive singing, rhythm and dance. Dholki is often an important part of its music.</p>
+          <span class="tag">Song & dance</span>
+        </article>
+        <article class="folk-card powada">
+          <div class="card-symbol">✦</div>
+          <h3>Powada</h3>
+          <p>A ballad form that tells stories of bravery and historical events, often performed with strong, energetic singing.</p>
+          <span class="tag">Storytelling</span>
+        </article>
+        <article class="folk-card bharud">
+          <div class="card-symbol">♬</div>
+          <h3>Bharud</h3>
+          <p>A folk performance associated with Sant Eknath, combining music, characters and social or spiritual messages.</p>
+          <span class="tag">Music & message</span>
+        </article>
+        <article class="folk-card gondhal">
+          <div class="card-symbol">✺</div>
+          <h3>Gondhal</h3>
+          <p>A traditional ritual performance with singing and instruments, connected with community and devotional practices.</p>
+          <span class="tag">Community tradition</span>
+        </article>
+      </div>
+    </section>
+
+    <section id="artists" class="section artist-section">
+      <div class="section-heading">
+        <p class="eyebrow">COMMUNITY CONNECTION</p>
+        <h2>Meet local artists</h2>
+        <p>This section will feature people from our area who help keep these traditions going.</p>
+      </div>
+      <div class="artist-placeholder">
+        <div class="artist-icon">☺</div>
+        <div>
+          <h3>Local performer profile</h3>
+          <p><b>Name:</b> To be added after interview</p>
+          <p><b>Folk form:</b> To be confirmed</p>
+          <p><b>What we want to learn:</b> How they started, how they practise, and how young people can support the tradition.</p>
+        </div>
+        <span class="coming-soon">FIELDWORK PENDING</span>
+      </div>
+      <p class="small-note">We will publish a person's name, photo or recording only after asking for their permission.</p>
+    </section>
+
+    <section id="interviews" class="section interview-section">
+      <div class="section-heading">
+        <p class="eyebrow">OUR FIELDWORK PLAN</p>
+        <h2>Questions we can ask</h2>
+      </div>
+      <ol class="question-list">
+        <li>How did you learn this folk tradition?</li>
+        <li>Which instruments are usually used?</li>
+        <li>Has the tradition changed over the years?</li>
+        <li>What difficulties do local performers face today?</li>
+        <li>How can college students help preserve it?</li>
+      </ol>
+      <div class="field-note"><b>Fieldwork note:</b> We will take notes, ask permission before recording, and verify information with the performer.</div>
+    </section>
+
+    <section id="feedback" class="section feedback-section">
+      <div class="feedback-copy">
+        <p class="eyebrow">YOUR TURN</p>
+        <h2>Share a suggestion</h2>
+        <p>Do you know a folk singer, musician or performance group we should learn about? Leave a note in this demo form.</p>
+      </div>
+      <form id="feedbackForm">
+        <label for="visitorName">Your name (optional)</label>
+        <input id="visitorName" name="visitorName" type="text" placeholder="Enter your name">
+        <label for="suggestion">Your suggestion</label>
+        <textarea id="suggestion" name="suggestion" rows="4" required placeholder="Tell us about a folk tradition or artist..."></textarea>
+        <button class="button" type="submit">Save suggestion</button>
+        <p id="formMessage" class="form-message" aria-live="polite"></p>
+        <small>This is a classroom demo. Suggestions stay in this browser only.</small>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-mark">लोकस्वर ♪</div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
